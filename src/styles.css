@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #fafafa;
+  color: #444;
+  font-family: sans-serif;
+}
+
+a, a:visited {
+  color: tomato;
+  text-decoration: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  box-shadow: none;
+  background-color: cornflowerblue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  display: block;
+  height: 30px;
+  background-color: cornflowerblue;
+  color: #fafafa;
+  border: none;
+}

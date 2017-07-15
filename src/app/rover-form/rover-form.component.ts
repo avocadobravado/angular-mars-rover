@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 import { MarsRoverAPIPhotos } from '../mars-rover-api-photos.service';
+import { PhotosListComponent } from '../photos-list/photos-list.component';
 
 @Component({
   selector: 'app-rover-form',

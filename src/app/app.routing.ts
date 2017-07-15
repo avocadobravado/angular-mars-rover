@@ -1,7 +1,8 @@
 import { ModuleWithProviders }  from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Router, Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { RoverFormComponent } from './rover-form/rover-form.component';
+import { PhotosListComponent } from './photos-list/photos-list.component';
 
 const appRoutes: Routes = [
   {
@@ -11,6 +12,10 @@ const appRoutes: Routes = [
   {
     path: 'rover',
     component: RoverFormComponent
+  },
+  {
+    path: 'photos',
+    component: PhotosListComponent
   }
 ];
 

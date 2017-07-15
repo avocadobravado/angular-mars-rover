@@ -1,3 +1,9 @@
+<h1>
+  <a routerLink="">{{title}} Home</a>
+  <a routerLink="photos">Photos</a>
+  <a routerLink="rover">Rover</a>
+</h1>
+
 <h1>Curiousity Images</h1>
 
 <form>
@@ -19,9 +25,10 @@
 </form>
 
 
-<div *ngIf="photos && !noPhotos">
-  <app-photo-list [childPhotos]="photos"></app-photo-list>
-</div>
+<!-- <div *ngIf="photos && !noPhotos">
+  <app-photos-list [childPhotos]="photos"></app-photos-list>
+</div> -->
+
 <div *ngIf="noPhotos">
     <h3>There were no photos taken on {{roverDate.value}} by the {{roverCamera.value}} camera.</h3>
 </div>
